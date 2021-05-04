@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Formularios. Deben incluir action (dónde) y method (cómo)-->
+    <form action="4-Formularios.html" method="GET">
+        <!--Label: etiqueta del campo formulario. Atributo for asociado a id de input-->
+        <label for="nombre">Nombre:</label>
+        <!--Input. Tipo texto para campos con poco escrito. Tiene un id-->
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="password">Contraseña</label>
+        <!--Input. Tipo password para contraseñas-->
+        <input type="password" id="password" name="pass">
+        <!--Input. Tipo radio para selección única-->
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="prefiero-no-decir">Prefiero no decir</label>
+        <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+        <!--Input. Menú desplegable-->
+        <select name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="prefiero-no-decir">Prefiero no decir</option>
+        </select>
+        <!--Input. Checboxes.-->
+        <label for="azul">Azul</label>
+        <input type="checkbox" id="azul" name="color" value="azul">
+        <label for="verde">Verde</label>
+        <input type="checkbox" id="verde" name="color" value="verde">
+        <label for="rojo">Rojo</label>
+        <input type="checkbox" id="rojo" name="color" value="rojo">
+        <label for="negro">Negro</label>
+        <input type="checkbox" id="negro" name="color" value="negro">
+        <label for="morado">Morado</label>
+        <input type="checkbox" id="morado" name="color" value="morado">
+        <!--Textarea para texto-->
+        <textarea name="description"></textarea>
+        <!--Input. Escondido (hidden) para autenticación y paso de datos-->
+        <input type="hidden" name="id" value="7">
+        <!--Input. Tipo submit para enviar datos-->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
