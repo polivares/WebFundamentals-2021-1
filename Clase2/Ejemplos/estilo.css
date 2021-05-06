@@ -1,37 +1,40 @@
-nav{
-    width: 100%;
-    border: 1px solid black;
+nav {
+  width: 100%;
+  border: 1px solid black;
 }
 
-nav ul li{
-    float:left;
-    padding: 1rem;
-    text-align: center;
-    list-style: none;
+nav ul li {
+  top: 50%;
+  float: left;
+  padding: 1rem;
+  text-align: center;
+  list-style: none;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.clearfix{
-    clear:both;
+.clearfix {
+  clear: both;
 }
 
-section{
-    background-color: aqua;
-    width: 100%;
-    height: 500px;
-    border: 1px solid red;
+section {
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
 }
 
-#visor{    
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding:0;
+#visor {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 0;
 }
 
-#desc{
-    width: 50%;
-    height: 100%;
-    float:left;
-    overflow: auto;
-    position: relative;
+#desc {
+  width: 50%;
+  height: 100%;
+  float: left;
+  overflow: auto;
+  position: relative;
 }
