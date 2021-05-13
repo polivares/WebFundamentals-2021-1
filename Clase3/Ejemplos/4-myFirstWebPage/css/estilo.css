@@ -4,14 +4,15 @@
   font-family: "helvetica neue", arial, verdana, sans-serif;
 }
 
-.navbar {
+nav {
   background-color: cornflowerblue;
 }
 
-.navbar ul {
+nav ul {
   text-align: center;
 }
-.navbar ul li {
+
+nav ul li {
   list-style: none;
   display: inline-block;
   margin: 2em;
@@ -33,6 +34,8 @@ main {
 .news * {
   font-size: 16px;
 }
+
+
 .news img {
   width: 100%;
 }

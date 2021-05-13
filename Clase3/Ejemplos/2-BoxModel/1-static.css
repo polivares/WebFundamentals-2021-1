@@ -1,3 +1,4 @@
+
 #container {
   background-color: yellow;
   display: inline-block;
@@ -8,7 +9,6 @@
   height: 100px;
   width: 100px;
   margin: 10px;
-  display: inline-block;
 }
 #box-1 {
   background-color: green;
@@ -18,4 +18,24 @@
 }
 #box-3 {
   background-color: blue;
+}
+
+h1{
+  background-color: green;
+}
+
+.box-1 {
+  background-color: green;
+}
+
+#box-4{
+  width: 500px;
+  height: 500px;
+}
+
+img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-top: 50%;
 }
