@@ -33,33 +33,33 @@ footer,
   margin: auto;
 }
 
+/* Elementos de la página */
 
 header {
   background-color: rgb(41, 147, 252); /*Dodger blue*/
 }
 
 .centralcontainer {
-  margin-left: 0;
-  margin-right: 0;
+  margin: auto 0 auto 0;
   display: flex;
 }
 
 main {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Para incluir border y padding en el cálculo de tamaños */
   background-color: rgb(66, 178, 115); /*Ocean green*/
   display: inline-block;
-  width: calc(70% - 5px);
+  width: calc(70% - 5px); /* Le resto el margen */
 }
 
 .item {
   background-color: rgb(52, 140, 91); /*Sea green*/
   display: inline-block;
-  width: calc(100%/4 - 25px);
+  width: calc(100%/4 - 25px); /* Se resta los márgenes de cada item */
   height: 60px;
 }
 
 .item p{
-    margin:0;
+    margin:0; /* Se quitan los márgenes*/
     display: inline-block;
     position: relative;
     top: 50%;
@@ -68,7 +68,7 @@ main {
 }
 
 aside {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Para incluir border y padding en el cálculo de tamaños */
   background-color: rgb(253, 100, 78); /*Persimmon*/
   display: inline-block;
   width: calc(30% - 5px);
