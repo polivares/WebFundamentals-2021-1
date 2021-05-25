@@ -1,14 +1,13 @@
 // Primer algoritmo
-console.log("Primer algoritmo")
+console.log("Primer algoritmo");
 for(var i=0; i < 10; i++){
-    console.log(i);
-    i = i+3;
+    console.log(i)
+    i = i+3
 }
-console.log(i);
+console.log(i)
 
 // Segundo algoritmo
-console.log("Segundo Algoritmo")
-a = 20;
+console.log("Segundo Algoritmo");a = 20;
 function abc(list){
     a = 15;
     console.log(a);
